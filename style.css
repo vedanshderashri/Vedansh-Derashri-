@@ -283,7 +283,7 @@ button{
 }
 @media screen and (max-width: 600px){
 .projects video{
-    width: 100px;
+    width: 100%;
     border-radius: 10px;
 }
 }
