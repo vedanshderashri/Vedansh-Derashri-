@@ -281,9 +281,9 @@ button{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 400px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 600px){
 .projects video{
-    width: 200px;
+    width: 100px;
     border-radius: 10px;
 }
 }
