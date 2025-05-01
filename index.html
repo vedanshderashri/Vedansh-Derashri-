@@ -17,49 +17,65 @@
 
 <body>
     <div class="navbar">
-        <div class="links">
-            <a href="index.html">
-                <li>Home</li>
-            </a>
-            <a href="#details-box">
-                <li>About</li>
-            </a>
-            <a href="#details-box">
-                <li>Contact</li>
-            </a>
-        </div>
-        <div class="name">
-            <p>Vedansh Derashri</p>
-        </div>
-        <div class="links">
-            <a href="https://www.instagram.com/vedansh.webp /">
-                <li>Instagram</li>
-            </a>
-            <a href="https://github.com/vedanshderashri/">
-                <li>Github</li>
-            </a>
-            <a href="https://sites.google.com/view/vedanshderashri/home">
-                <li>Portfolio</li>
-            </a>
-        </div>
+        <h1 style="font-size: 24px;font-weight: 200;" id="hamburger">≡</h1>
+        <h1 style="font-size: 14px;">Vedansh Derashri</h1>
     </div>
+    <div class="sidebar" id="sidebar">
+        <a href="index.html">Home</a>
+        <a href="#details-box">About</a>
+        <a href="#details-box">Contact</a>
+        <a href="https://www.instagram.com/vedansh.webp/">Instagram</a>
+        <a href="https://sites.google.com/view/vedanshderashri/home">Portfolio</a>
+        <a href="https://github.com/vedanshderashri">Github</a>
+        <a href="https://www.linkedin.com/in/vedanssh/">Linkedin</a>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <script src="ham-menu.js"></script>
     <div class="intro">
         <div class="social-media">
             <a href="https://www.instagram.com/_vedanssh/"><i class="fa-brands fa-square-instagram"></i></a>
             <a href="https://www.linkedin.com/in/vedanssh/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/vedanshderashri/"><i class="fa-brands fa-github"></i></a>
         </div>
-
+        
         <div class="intro-details">
-            <img style="width: 250px;border-radius: 50%;border: 1px solid rgb(0 0 0 / 13%);background: #f6f6f6;"
-                src="me.jpg" alt="">
-            <p class="animate__animated animate__fadeInDown">Frontend Developer | Graphic Designer | UIUX Designer</p>
+            <img src="me.png" alt="">
+            <h1 class="animate__animated animate__fadeInDown">Crafting Websites, Brand Identities, and User Interfaces</h1>
         </div>
-
-        <a href="https://www.instagram.com/vedansh.webp/"><button>Instagram </button></a>
-       
+        
+        <a href="mailto:vedanshderashri8@gmail.com"><button>Email</button></a>
+        
     </div>
 
+    <div class="section">
+        <div class="work">
+            <div class="icon">
+                <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="w-text">
+                <h1>500</h1>
+                <p>Hours Worked</p>
+            </div>
+        </div>
+        <div class="work">
+            <div class="icon">
+                <i class="fa-solid fa-laptop"></i>
+            </div>
+            <div class="w-text">
+                <h1>50+</h1>
+                <p>Project Finished</p>
+            </div>
+        </div>
+        <div class="work">
+            <div class="icon">
+                <i class="fa-solid fa-face-smile"></i>
+            </div>
+            <div class="w-text">
+                <h1>20+</h1>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+    </div>
     <div class="details">
         <div class="about-me" id="details-box" data-aos="zoom-in-up">
             <h1>Who am I ?</h1>
@@ -72,7 +88,7 @@
                 Google Developers Students Club, where I contribute to innovative projects and collaborate with
                 like-minded tech enthusiasts. Let's connect and bring your creative vision to life!
             </p>
-             <a href="https://sites.google.com/view/vedanshderashri/home"><button>Portfolio</button></a>
+             <a href="https://www.linkedin.com/in/vedanssh/"><button>Linkedin</button></a>
         </div>
         <div class="personal-info" id="details-box" data-aos="zoom-in-up">
             <h1>Personal Info</h1>
@@ -96,14 +112,16 @@
             </div>
         </div>
     </div>
-    <h1 id="title">My <span style="color: #141414;">Resume</span></h1>
+    <div id="resume" style="background: #fff;">
+    <h1 id="title" style="color: #000; padding-top: 20px;">My <span>Resume</span></h1>
     <div class="resume">
         <div class="column" data-aos="fade-down">
             <h1>Experience</h1>
             <div id="line"></div>
             <div>
                 <h2>Present</h2>
-                <p>GDSCAITR</p>
+                <p>GDGOC AITR</p>
+                <span>Graphic Designer</span>
                 <p>Google Developer Student Clubs (GDSC) are university-based groups that offer students the opportunity
                     to
                     learn about Google technologies and programming. GDSC chapters are located in over 110 countries and
@@ -150,35 +168,7 @@
             </div>
         </div>
     </div>
-    <div class="section">
-        <div class="work">
-            <div class="icon">
-                <i class="fa-regular fa-clock"></i>
-            </div>
-            <div class="w-text">
-                <h1>500</h1>
-                <p>Hours Worked</p>
-            </div>
-        </div>
-        <div class="work">
-            <div class="icon">
-                <i class="fa-solid fa-laptop"></i>
-            </div>
-            <div class="w-text">
-                <h1>50+</h1>
-                <p>Project Finished</p>
-            </div>
-        </div>
-        <div class="work">
-            <div class="icon">
-                <i class="fa-solid fa-face-smile"></i>
-            </div>
-            <div class="w-text">
-                <h1>20+</h1>
-                <p>Happy Clients</p>
-            </div>
-        </div>
-    </div>
+</div>
     <h1 id="title">Website Projects</h1>
     <div class="projects">
         <a title="Open Website" href="https://dalaudapublicschool.com/">
@@ -205,25 +195,13 @@
                 <a href="https://www.ssmmbagindore.com/">SSM Indore</a>
             </div>
         </a>
+        <a title="Open Website" href="https://kovitar.com">
+            <div title="Open Website" class="project">
+                <img src="kovitar.png" alt="">
+                <a href="https://kovitar.com">Kovitar Foods International</a>
+            </div>
+        </a>
     </div>
-
-    <h1 id="title">UIUX Projects</h1>
-    <div class="uiux">
-            <video width="40%" autoplay controls src="video1.mp4"></video>
-            <video width="40%" autoplay controls src="video2.mp4"></video>
-    </div>
-
-   <!-- 
-    <h1 id="title">UIUX Projects</h1>
-
-    <h1 id="title">Graphic Design <span style="color: #141414;">Portfolio</span></h1>
-    <div class="portf-pages" id="pf-link">
-        <iframe src="https://drive.google.com/file/d/18k13dRUeToCqJHM9R5II_llPCSrr8EmF/preview" width="1350px"
-            height="1000px" allow="autoplay"></iframe>
-    </div>
-    
-    -->
-
     <div class="footer">
         <p>Vedansh Derashri | Contact +916263475731 | @vedansh.webp</p>
     </div>
@@ -233,5 +211,4 @@
 <script>
     AOS.init();
 </script>
-
 </html>
