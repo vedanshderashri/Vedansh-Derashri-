@@ -170,8 +170,9 @@
     </div>
 </div>
     <h1 id="title">UI Projects</h1>
-    <p>Click for Live Preview</p>
+    <p id="preview" style="padding: 0 130px">Click for Live Preview</p>
     <style>
+        
         .ui-projects{
             display: flex;
             align-items: center;
@@ -181,8 +182,18 @@
         }
         .ui-projects img{
             width: 100%;
+            max-width: 800px;
             border-radius: 20px;
             margin-bottom: 10px;
+            transition: .3s linear;
+        }
+        .ui-project img:hover{
+            box-shadow: 0 0 30px 7px #dfdfff2e;
+        }
+        @media screen and (max-width: 600px){
+            #preview{
+                padding: 0 20px;
+            }
         }
     </style>
     <div class="ui-projects">
@@ -235,6 +246,7 @@
     AOS.init();
 </script>
 </html>
+
 
 
 
